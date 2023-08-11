@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@+id/navigation_userBookings">
+
+
+    <fragment
+        android:id="@+id/navigation_userBookings"
+        android:name="com.example.rapidrentals.Fragment.FullBookingFragment"
+        android:label="Bookings"
+        tools:layout="@layout/fragment_booking" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.rapidrentals.Fragment.AddFragment"
+        android:label="Add bike"
+        tools:layout="@layout/fragment_add" />
+
+</navigation>
